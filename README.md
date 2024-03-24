@@ -22,7 +22,7 @@ The logging service is designed with a microservices architecture, consisting of
 
 4. **Frontend Service**: Provides a user-friendly web interface for interacting with the logging system, including log visualization and querying capabilities.
 
-5. **gRPC Endpoint**: Offers a high-performance and language-agnostic communication protocol for client-server communication, providing efficient data transfer between services.
+5. **gRPC logging Endpoint**: Offers a high-performance and language-agnostic communication protocol for client-server communication, providing efficient data transfer between services.
 
 6. **Kafka Service**: Facilitates data replication and stream processing, ensuring fault tolerance and scalability in log processing.
 
@@ -56,7 +56,7 @@ Each service utilizes specific tools and technologies for its functionalities:
 - **Data Visualization**: D3.js
 - **Backend Integration**: RESTful APIs
 
-### gRPC Endpoint
+### Public gRPC Endpoint
 
 - **Protocol**: gRPC
 - **Efficient Communication**: Protocol Buffers
