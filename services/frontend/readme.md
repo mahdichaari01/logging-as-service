@@ -1,9 +1,3 @@
-# Backend Service
+# frontend Service
 
-The backend service is responsible for user related operations:
-
-- user authentication
-- user management
-- notifications
-- data aggregation
-- interface with the rest of the services
+The frontend service is responsible for CRUD operations on the system, streaming logs to the user, and displaying the logs in a user-friendly way.
